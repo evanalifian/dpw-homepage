@@ -110,7 +110,8 @@ p, span {
 
 .wrapper {
   row-gap: 28px;
-  padding: 12px 0 24px;
+  padding-top: 12px;
+  padding-bottom: 24px;
 }
 
 header#header {
@@ -126,4 +127,15 @@ section#project_job > div {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+}
+
+
+/* RESPONSIVE */
+/* mobile */
+@media (max-width: 512px) {
+  /* COMPONENTS */
+  .modal_img {
+    width: 85%;
+    height: auto;
+  }
 }
